@@ -1,9 +1,24 @@
 # A_B_Testing
+
+Tech Stack:
+
+1. SQL
+2. Python
+
+Libraries used:
+
+1. Duckdb
+2. Seaborn
+3. Numpy
+4. Scipy
+5. Statsmodel
+6. Pandas
+
 A/B tests, that is a randomized experimentation process wherein two or more versions of a variable (web page, page element, banner, etc.) are shown to different segments of people at the same time to determine which version leaves the maximum impact and drive business metrics.
 
 ## About Dataset
-Marketing A/B testing dataset
 
+Marketing A/B testing dataset
 
 The companies are interested in answering two questions:
 
@@ -14,7 +29,7 @@ With the second question in mind, we normally do an A/B test. The majority of th
 
 The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant.
 
-Data dictionary:
+## Data dictionary
 
     Index: Row index
     user id: User ID (unique)
@@ -23,5 +38,3 @@ Data dictionary:
     total ads: Amount of ads seen by person
     most ads day: Day that the person saw the biggest amount of ads
     most ads hour: Hour of day that the person saw the biggest amount of ads
-
-
